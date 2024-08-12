@@ -4,6 +4,8 @@ class Arrayy{
 
         // Static Declaration of Arrays-->
         int arr[]={1,2,3};
+                        System.out.println(arr);
+
                 System.out.println(arr.hashCode());
 
         System.out.println(arr[0]);
@@ -15,6 +17,8 @@ class Arrayy{
 
         // Dynamic Declaration of Arrays-->
         int arrr[]=new int[3];
+          System.out.println(arrr);
+          System.out.println(arrr.hashCode());
         arrr[0]=200;
         arrr[1]=400;
         arrr[2]=600;
