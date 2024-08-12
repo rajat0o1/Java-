@@ -22,9 +22,13 @@ class Arrayy{
         arrr[0]=200;
         arrr[1]=400;
         arrr[2]=600;
-        System.out.println(arrr[0]);
-        System.out.println(arrr[1]);
-        System.out.println(arrr[2]);
+        for (int i=0;i<3;i++){
+        System.out.println(arrr[i]);
+        }
+
+        // System.out.println(arrr[0]);
+        // System.out.println(arrr[1]);
+        // System.out.println(arrr[2]);
 
 
     
