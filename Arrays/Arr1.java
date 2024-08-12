@@ -28,12 +28,8 @@ class Arrayy{
         }
 
 
-        // Another way for the same above code Let's see
 
-
-        for (int j=0; j<arrr.length;j++){
-            System.out.println(arrr[j]);
-        }
+       
 
         // System.out.println(arrr[0]);
         // System.out.println(arrr[1]);
