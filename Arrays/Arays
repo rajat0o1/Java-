@@ -1,0 +1,20 @@
+    Array's a collection of similar type of data type .
+    /* Syntax 
+
+    STATIC ARRAY:
+
+        datatype var_name[]={val1,val2......};
+
+           for ex.
+            int a[] ={1,2,3,4,5};
+
+    DYNAMIC ARRAY: 
+            
+        datatype arrayname[]= new datatype[size];
+            
+            for Ex.
+                int a[]=new int[3];
+                a[0]=101;
+                a[1]=102;
+                a[2]=103;
+                
