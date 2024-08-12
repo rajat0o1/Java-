@@ -22,8 +22,17 @@ class Arrayy{
         arrr[0]=200;
         arrr[1]=400;
         arrr[2]=600;
-        for (int i=0;i<3;i++){
-        System.out.println(arrr[i]);
+        for (int i=0;i<3;i++)
+        {
+        System.out.println(arrr[i]+"\n");
+        }
+
+
+        // Another way for the same above code Let's see
+
+
+        for (int j=0; j<arrr.length;j++){
+            System.out.println(arrr[j]);
         }
 
         // System.out.println(arrr[0]);
