@@ -1,3 +1,5 @@
+// WAP to create an array with size 10 and assign default initial value (1,2,3,....10)
+
 class Test{
     public static void main(String[] args){
         int arr[]=new int[10];

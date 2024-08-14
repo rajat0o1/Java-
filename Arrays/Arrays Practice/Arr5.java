@@ -1,0 +1,1 @@
+// * WAP to create an array with size 10 and assign a value using keyboard and after reading display the value of array.
