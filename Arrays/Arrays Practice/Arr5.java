@@ -5,6 +5,7 @@ class Test{
     public static void main(String[] args){
         int SIZE=15;
         int []arr=new int[SIZE];
+        System.out.println("Please Enter the Elements of the Array From Your side\n");
         Scanner sc=new Scanner(System.in);
         for(int i=0;i<arr.length;i++){
             arr[i]=sc.nextInt();
@@ -12,7 +13,6 @@ class Test{
         for (int i=0;i<arr.length;i++){
             System.out.println("\n"+arr[i]);
         }
-
 
     }
 }
