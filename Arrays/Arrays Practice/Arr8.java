@@ -1,9 +1,10 @@
-// * WAP to create an array with size 10 and initialize the array element using keyboard and calculate the sum of all array elements 
+// // * WAP to create an array with size 10 and initialize the array element using keyboard 
+// and calculate the sum of all array elements 
 import java.util.Scanner;
 
 class Test{
     public static void main(String[] args){
-        int arr[]=new int[5];
+        int arr[]=new int[10];
         Scanner sc=new Scanner(System.in);
         int sum=0;
 
