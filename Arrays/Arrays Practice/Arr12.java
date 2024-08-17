@@ -3,9 +3,11 @@
 
 class Test{
     public static void main(String[] args){
-    int[] arr = {50, 45, 45, 60, 4558, 455, 789, 8844,  46};
+    int[] arr = {50, 45, 75, 8855, 4558, 455, 789, 8844,  46};
+
     int largest=arr[0];
     int Lposition=0;
+
     int smallest=arr[0];
     int Sposition=0;
 
@@ -20,8 +22,8 @@ class Test{
             }
         }
 
-        System.out.println("Largest Element is: " +largest + " \nposition is: "+ Lposition);
-        System.out.println("Smallest Element is: " +smallest + "\nand position is: "+ Sposition);
+        System.out.println("Largest Element is: " +largest + " \nand it's position is: "+ Lposition);
+        System.out.println("Smallest Element is: " +smallest + "\nand it's position is: "+ Sposition);
 
     }
 }
