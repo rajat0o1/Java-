@@ -1,5 +1,6 @@
 
-//* search the given element into an array.
+
+// * check the possition in the array of given element
 import java.util.Scanner;
 class Test{
     public static void main(String[] args){
@@ -12,7 +13,7 @@ class Test{
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == Given) {
-                System.out.println("Matched " + arr[i] );
+                System.out.println("Matched " + arr[i]+" is at position "+i );
                 found = true;  
                 break;  
             }
