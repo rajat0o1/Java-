@@ -1,3 +1,4 @@
+
 //* search the given element into an array.
 import java.util.Scanner;
 class Test{
@@ -6,14 +7,20 @@ class Test{
         System.out.println("Please Enter the Number: ");
         int Given=0;
         Given=sc.nextInt();
+        boolean found=false;
         int arr[]= {1,2,3,4,5,6,7};
-        for(int i=0;i<arr.length;i++){
-            if (arr[i]==Given);{
-                
-            System.out.println("Matched "+arr[i]+" is at index "+i);
-            }
 
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == Given) {
+                System.out.println("Matched " + arr[i] + " is at index " + i);
+                found = true;  
+                break;  
+            }
         }
+            if(!found){
+                System.out.println("Element not found");
+            }
+            sc.close();
         
           
 
