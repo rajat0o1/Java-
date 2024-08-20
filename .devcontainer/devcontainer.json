@@ -1,27 +1,29 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/java
-{
-	"name": "Java",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+name: Java CI
 
-	"features": {
-		"ghcr.io/devcontainers/features/java:1": {
-			"version": "none",
-			"installMaven": "false",
-			"installGradle": "false"
-		}
-	}
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "java -version",
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-	// Configure tool-specific properties.
-	// "customizations": {},
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11' # Specify the JDK version you need
+          distribution: 'adoptopenjdk' # You can also use 'zulu', 'temurin', etc.
 
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
-}
+      - name: Build with Maven
+        run: mvn clean install
+
+      - name: Run tests
+        run: mvn test
