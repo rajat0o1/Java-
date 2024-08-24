@@ -5,11 +5,12 @@ class KmToCm{
 public static void main(String[] args){
 
     Scanner sc=new Scanner (System.in);
-    System.out.println("Enter number in Kilometers: ");
+    System.out.print("Enter number in Kilometers: ");
 
     int x=sc.nextInt();
     int y=100000*x;
-    System.out.println("your Answer is: "+y);
 
+    System.out.println("your Answer is: "+y);
+ 
 }
 }
