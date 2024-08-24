@@ -6,7 +6,7 @@ class Calculator{
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
 
-        System.out.println("Enter Numbers: ");
+        System.out.print("Enter Numbers: ");
         int num1=sc.nextInt();
         int num2= sc.nextInt();
         double sum =num1+num2;
