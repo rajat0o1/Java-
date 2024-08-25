@@ -1,7 +1,7 @@
 // Take radius of a circle , calcualte its perimeter and area, then print it on the screen
 
 import java.util.Scanner;
-class PerimeterAndArea{
+class Circle{
     public static void main(String[] args){
         float x=0;
         Scanner sc=new Scanner(System.in);

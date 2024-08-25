@@ -1,4 +1,5 @@
 // Take number of inches , convert it to feet, then print it on the screen
+
 import java.util.Scanner;
 class InchesToFeet{
     public static void main(String[] args){
