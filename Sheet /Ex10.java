@@ -5,7 +5,13 @@ class NEven{
     public static void main(String[] args){
         int n=0;
         Scanner sc= new Scanner(System.in);
+        System.out.print("Enter Number: ");
         n=sc.nextInt();
-        
+        for (int i=0;i<=n*2;i++){
+            if (i%2==0){
+                System.out.println(i);
+            }
+        }
+
     }
 }
