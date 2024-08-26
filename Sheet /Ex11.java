@@ -15,7 +15,7 @@ class NThEven{
         for(int i=0;i<=n*2;i++){
 
             if (i%2==0){
-                even=(n*2);
+                even=2*(n-1);
 
             }
         }
