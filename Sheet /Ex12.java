@@ -2,14 +2,15 @@
 // 5 7 9 11 13 .......
 
 import java.util.Scanner;
-class xyz{
+class SeriesSum{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter n: ");
+        System.out.println("Enter n: (only Positive)");
         int n=sc.nextInt();
-        for (int i=5;i<=100;i+=2){
-            int j=i;
-            System.out.println(j);
-        }
+  
+        int r=n*(n+4);
+        int res=r;
+        System.out.println("Answer is: "+res);
+
     }
 }
