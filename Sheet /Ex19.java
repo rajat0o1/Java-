@@ -11,9 +11,8 @@ class ThirdAngle{
         if (x <= 0 || y <= 0 || x+y >= 180) {
         System.out.println("Invalid angles. The sum of the two angles must be less than 180 degrees and both angles must be positive.");
         }
-        x=x*x;
-        y=y*y; 
-        int z=x+y;
+      
+      int z=180-(x+y);
         System.out.println("Third Angle of the Right Angled Triangle is: "+z);
 
 
