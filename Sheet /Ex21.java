@@ -10,9 +10,5 @@ class EquilateralTriangleArea{
         double area= ( 1.73 * side * side )/4;  
         System.out.println("Area  of Equilateral Triangle is: "+ area);
 
-
-        
-
-
     }
 }
