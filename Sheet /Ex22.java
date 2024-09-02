@@ -15,7 +15,7 @@ class TotalAvgPerc{
         double avg=total/5;
         double percentage=total/(75*5) ;
         percentage=percentage*100;
-        System.out.println("Total: "+total);
+        System.out.println("Total: "+total)
         System.out.println("Average: "+avg);
         System.out.println("Percentage: "+(float)percentage+"%");
 
