@@ -9,8 +9,10 @@ class TeenAger{
         int age=sc.nextInt();
         if ((age>12)&&  (age<20))
         System.out.println("Teenager: Beware of my Tantrums");
+        else if (age>20)
+        System.out.println("Young");
         else 
-        System.out.println("Teenager ");
+        System.out.print("Kid");
 
     }
 }
