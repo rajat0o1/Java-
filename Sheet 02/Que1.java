@@ -11,9 +11,8 @@ class LargestOfTwo{
         if (one > two){
             System.out.println(one);
         }
-        else{
-            System.out.println(two);
-        }
+        System.out.println(two);
+
 
 
 
