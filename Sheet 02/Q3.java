@@ -10,7 +10,7 @@ class TeenAger{
         // 
         if ((age>12)&&  (age<20))
         System.out.println("Teenager: Beware of my Tantrums");
-        else if (age>20)
+        else if (age>=20)
         System.out.println("Young");
         else    
         System.out.print("Kid");
