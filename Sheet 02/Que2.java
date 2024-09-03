@@ -1,4 +1,4 @@
-// Take 3 numbers as input from user, print the largest number on the screen
+// 2 Take 3 numbers as input from user, print the largest number on the screen
 import java.util.Scanner;
 class LargestOfThree{
     public static void main(String[] args){
