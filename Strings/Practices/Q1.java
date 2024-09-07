@@ -6,9 +6,9 @@ class Strings{
         Scanner sc= new Scanner (System.in);
         System.out.println("Enter Anything (not Numbers): ");
         String str= sc.nextLine();
-        str=str+32;
+        str=ste.toUpperCase();
+        // str=str+32;
         System.out.println(str);
     }
 
 }
-
