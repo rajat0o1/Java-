@@ -6,6 +6,8 @@
 // 1. Add
 // 2. Subtract
 // 3. Multiply
+// 4. Divide
+
 import java.util. Scanner;
 
 class Calculator{
