@@ -4,8 +4,21 @@ class CheckDivisiblity{
     public static void main(String[] args){
         Scanner sc= new Scanner (System.in);
         int num = sc.nextInt();
-        scanner.close();
-        
+        System.out.print("Enter Number: ");
+        if(CheckDivisiblity(num)){
 
+        System.out.println(num+" is Divisible.");
+        }
+        else 
+        {
+        System.out.println(num+" is not Divisible.");
+
+        }
+
+
+    }
+    public static boolean CheckDivisiblity(int x){
+        return( (x%5==0) && (x%11==0)  );
+        
     }
 }
