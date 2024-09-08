@@ -11,6 +11,7 @@ class ValidTriangleCheck{
         System.out.print("Enter Angle 3 (angle>0) of the Triangle to check it is valid or not: ");
         double angle3=sc.nextDouble();
         
+        
         if (angle1 + angle2 + angle3 == 180){
             System.out.println("It is Valid Triangle");
         }
