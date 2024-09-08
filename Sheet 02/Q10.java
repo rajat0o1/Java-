@@ -18,7 +18,7 @@ class CheckDivisiblity{
 
     }
     public static boolean CheckDivisiblity(int x){
-        return( (x%5==0) && (x%11==0)  );
+        return( (x%5==0) || (x%11==0)  );
         
     }
 }
