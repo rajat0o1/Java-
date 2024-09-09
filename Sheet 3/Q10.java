@@ -8,6 +8,7 @@ class NumOfDigit{
         System.out.print("Enter Number: ");
         int num= sc.nextInt();
          k=num;
+         
         while (num>0){
             num/=10;
             count++;
