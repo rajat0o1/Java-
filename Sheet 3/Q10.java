@@ -10,9 +10,15 @@ class NumOfDigit{
          k=num;
          
         while (num>0){
+
+
             num/=10;
             count++;
+
+
         }
         System.out.println("Number of Digits in "+k+" is: "+count);
+
+        
     }
 }
