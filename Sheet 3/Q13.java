@@ -13,9 +13,6 @@ class SwapFirstLast{
         int first=num;
         int last= num;
 
-
-
-
       while(first>10){
         first=first/10;
 
