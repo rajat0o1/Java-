@@ -5,14 +5,22 @@ import java.util.Scanner;
 class FirstLast{
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
-        System.out.println("Enter Number: ");
+        System.out.println("Enter Positive Number: ");
         int x= sc.nextInt();
-        while(x>0){
-            x
+        int lastNum= x;
+        int firstNum= x;
 
-
-
+        while(firstNum>10){
+            
+            firstNum/=10;
         }
+        
+        lastNum=lastNum%10;
+        System.out.println(x);
+        System.out.println(firstNum);
+        System.out.println(lastNum);
+
+
 
 
 
