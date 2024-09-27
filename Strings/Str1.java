@@ -1,5 +1,4 @@
-// * Write a java program to convert the string from upper case to lower case.
-import java.util.Scanner;
+package stringss
 import java.util.*;
 // import java.util.String;
 class StrBasic{
